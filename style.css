@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    gap: 30px;
+    
+}
+.box{
+    width: 500px;
+    box-shadow: 5px 5px 20px #414445;
+    
+   
+    
+}
+
+
+.box .discount span{
+    background-color:#6E2594 ;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.box .image{
+    text-align: center;
+}
+.box .contain{
+    padding: 0 18px;
+}
+.box .contain h3 a{
+    font-size: 16px;
+    text-decoration: none;
+    font-family: monospace;
+    color: #000;
+}
+.box .contain h3 a:hover{
+    color: brown;
+}
+.box .prize{
+    text-align: center;
+    padding: 5px;
+}
+.box .prize .btn_1{
+    color:#ef4a23 ;
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.box .prize .btn_2{
+    text-decoration: line-through;
+}
+.box button{
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.box .bd_1{
+    margin-bottom: 8px;
+    color: blue;
+    cursor: pointer;
+}
+.box .bd_1:hover{
+    background-color: rgb(63, 63, 197);
+    color: #fff;
+}
+.box .bd_2{
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.box .bd_2:hover{
+    background-color: #565454;
+    color: rgb(239, 239, 252);
+}
